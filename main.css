@@ -1,7 +1,31 @@
+/*----------------------- 
+    Genral section 
+-----------------------*/
+
 * {
     box-sizing: border-box;
     direction: rtl;
-    text-align: justify;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+
+/*----------------------- 
+    Main section 
+-----------------------*/
+
+#main-section {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 /*-----------------------
@@ -23,16 +47,6 @@
     direction: ltr;
 }
 
-/*----------------------- 
-    Navbar section 
------------------------*/
-
-#main-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 10px;
-}
 
 /*----------------------- 
     Navbar section 
@@ -88,7 +102,7 @@
 -----------------------*/
 
 #footer {
-    margin-top: 20px;
+    margin-top: 5px;
     border: 1px solid #fb7100;
     background-color: #fb7100;
     border-radius: 20px;
@@ -96,8 +110,6 @@
     text-shadow: 1px 1px black;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    align-content: flex-end;
 }
 
 
@@ -143,7 +155,7 @@
     For desktop 
 -----------------------*/
 
-@media only screen and (min-width: 860px) {
+@media only screen and (min-width: 800px) {
     .col-l-1 {width: 8.33%;}
     .col-l-2 {width: 16.66%;}
     .col-l-3 {width: 25%;}
@@ -157,3 +169,5 @@
     .col-l-11 {width: 91.66%;}
     .col-l-12 {width: 100%;}
 }
+
+
