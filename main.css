@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+/*-----------------------
+    Header section 
+-----------------------*/
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgb(43, 159, 226);
+    background-color: rgb(43, 159, 226);
+}
+
+#header h1 {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+/*----------------------- 
+    Navbar section 
+-----------------------*/
+
+#nav-bar a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#nav-bar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#nav-bar li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px 0;
+    background-color: #fb8500;
+}
+
+
+
+
+/*----------------------- 
+    For mobile phones 
+-----------------------*/
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
